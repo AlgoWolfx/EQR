@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+.env
+.env.*
+!.env.example
+.agents/skills/impeccable/scripts/bin/
+.impeccable/review/
+.impeccable/config.local.json
+
+graphify-out/
+.codex/hooks.json
+.codex/hooks.json.bak

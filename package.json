@@ -1,0 +1,44 @@
+{
+  "name": "eqr",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.468.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^24.0.0",
+    "@types/pngjs": "^6.0.5",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "@zxing/library": "^0.21.3",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.9.9",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.0",
+    "vite-plugin-pwa": "^1.2.0",
+    "vitest": "^3.2.0"
+  }
+}

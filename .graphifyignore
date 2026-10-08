@@ -1,0 +1,7 @@
+# Keep the project graph focused on application code rather than installed tools.
+.agents/
+.impeccable/
+.codex/
+node_modules/
+dist/
+graphify-out/
